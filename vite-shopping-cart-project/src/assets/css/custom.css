@@ -1,0 +1,247 @@
+@charset "utf-8";
+
+/* 뒤의 web 배경 css - start */
+/* .mall_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mall_wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mall_header {
+  background-color: rgb(114, 238, 238);
+  width: 100%;
+}
+
+.nextStep_title {
+}
+
+.mall_nav {
+}
+
+.nav_lists {
+}
+
+.mall_payment_container {
+}
+
+.mall_payment_wrap {
+}
+
+.mall_paylist {
+}
+
+.mall_paylist_title {
+}
+
+.mall_paylist_container {
+}
+
+.mall_paylist_list {
+}
+
+.mall_paylist_list_img {
+}
+
+.mall_paylist_list_text {
+}
+
+.mall_pay_price {
+}
+
+.mall_pay_price_title {
+}
+
+.mall_pay_price_text_wrap {
+}
+
+.mall_pay_price_content {
+}
+
+.mall_pay_price_button {
+} */
+/* 뒤의 web 배경 css - end */
+
+/* 카드 결제(입력전) css - start */
+.container {
+  box-shadow: 1px 1px 35px 5px #d9d9d9;
+  border-radius: 10px;
+  width: 375px;
+  height: 700px;
+  padding: 0px 30px;
+}
+
+.purchase_header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.purchase_header_title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.next_logo {
+  color: #fff;
+  background-color: rgb(105, 236, 219);
+  padding: 1px 4px;
+}
+
+.nav_bar {
+  padding: 1px 0px;
+}
+
+.purchase_empty_card_slide {
+  display: flex;
+  flex-direction: column;
+}
+
+.purchase_section_title {
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 2px solid #d9d9d9;
+  display: flex;
+  padding: 2px 10px;
+}
+
+.short_underbar {
+  width: 64px;
+}
+
+.long_underbar {
+  width: inherit;
+}
+
+.card_slide_wrap {
+  display: flex;
+  width: inherit;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+}
+
+.card_arrow {
+  font-size: 30px;
+  color: #525252;
+  margin: 0px 20px;
+}
+
+.card_area {
+  width: 240px;
+  height: 160px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add_card {
+  background-color: #e5e5e5;
+  width: 180px;
+  height: 120px;
+  border-radius: 5px;
+  font-size: 30px;
+  color: #525252;
+}
+
+.account_change_text {
+  font-size: 8px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0 0 0;
+  font-weight: 500;
+}
+
+.account_change_text > span {
+  font-weight: 800;
+}
+
+.purchase_notice_area {
+  display: flex;
+  flex-direction: column;
+}
+
+.purchase_text_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.purchase_result_text {
+  font-size: 14px;
+  font-weight: 900;
+  background-color: rgb(105, 236, 219);
+  height: 4px;
+  line-height: 0.1;
+  margin: 15px 0 30px 0px;
+}
+
+.purchase_terms_text_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 10px;
+}
+
+.purchase_terms_text {
+  font-size: 10px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+}
+
+.text_space_between {
+  width: 360px;
+  justify-content: space-between;
+}
+
+.purchase_terms_text > span > a {
+  color: #525252;
+  border-bottom: 1px solid #525252;
+  margin-left: 5px;
+}
+
+.purchase_agree_radio {
+  vertical-align: middle;
+  appearance: none;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+}
+
+[type="radio"]:checked {
+  border: 3px solid rgb(65, 216, 196);
+  background-color: rgb(234, 255, 252);
+}
+
+.purchase_button_area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0 0 0;
+}
+
+.purchase_button {
+  width: 180px;
+  height: 40px;
+  font-size: 14px;
+  margin: 0px 5px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  color: #000;
+}
+/* 카드 결제(입력전) css - end */
+
+/* 카드 추가(입력전) - 카드이미지 O - css - start */
